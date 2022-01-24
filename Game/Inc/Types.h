@@ -1,18 +1,22 @@
 /**
  * @file Types.h
- * @author your name (you@domain.com)
- * @brief 
+ * @author TheWildDeadHero
+ * @brief This file contains ann declarations of in relation to types.
  * @version 0.1
  * @date 2022-01-23
  * 
  * @copyright Copyright (c) 2022
+ * 
+ * @note When using this engine, edit this file (as well as the associated source file) in
+ *       order to add new types. In order to maintain compatibility, only add types where
+ *       indicated in the code.
  * 
  */
 
 #ifndef GUARD_MONSTER_TYPE_IDS_H
 
 /**
- * @brief 
+ * @brief Enumerator that keeps track of the types in the game.
  * 
  */
 enum class e_TypeID

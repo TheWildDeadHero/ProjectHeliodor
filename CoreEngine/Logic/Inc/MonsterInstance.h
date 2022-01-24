@@ -94,12 +94,16 @@ class c_MonsterInstance
         c_MonsterStatSet<31>            individual_values_;
         c_MonsterStatSet<200>           awakening_values_;
 
+        c_MonsterStatSet<255, 0, e_ContestStatType, static_cast<uint32_t>(e_ContestStatType::NUM_STATS)>
+                                        contest_values_;
+        uint8_t                         sheen_;
+
         bool                            is_egg_;
         bool                            has_hidden_ability_;
 
         e_Nature                        nature_;
 
-
+        bool                            iv_training_[static_cast<uint32_t>(e_StatType::NUM_STATS)];
 
 };
 
