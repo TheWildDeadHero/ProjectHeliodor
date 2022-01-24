@@ -9,13 +9,13 @@
  * 
  */
 
-#ifndef GUARD_MONSTER_TYPES_H
+#ifndef GUARD_MONSTER_TYPE_IDS_H
 
 /**
  * @brief 
  * 
  */
-enum e_TypeID
+enum class e_TypeID
 {
     NO_TYPE,
 
@@ -39,11 +39,11 @@ enum e_TypeID
     FAIRY,
     UNKOWN,
 
+    SOUND,
+    GEM,
+
     /* USER CODE - Add custom types here */
     /* Make sure to edit the type table in the associated source file */
-
-    // SOUND,
-    // GEM,
 
     /* END USER CODE */
 

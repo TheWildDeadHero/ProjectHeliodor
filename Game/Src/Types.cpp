@@ -16,7 +16,7 @@
  * @brief 
  * 
  */
-static const uint8_t a_TypeMatchupTable[NUM_TYPES][NUM_TYPES] = 
+static const uint8_t a_TypeMatchupTable[static_cast<uint32_t>(e_TypeID::NUM_TYPES)][static_cast<uint32_t>(e_TypeID::NUM_TYPES)] = 
 {
     {},
     {},

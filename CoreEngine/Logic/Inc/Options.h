@@ -11,11 +11,13 @@
 
 #ifndef GUARD_GAME_OPTIONS_H
 
+#include <stdint.h>
+
 /**
  * @brief Defines options for text speed.
  * 
  */
-enum e_TextSpeed
+enum class e_TextSpeed
 {
     SLOW,
     MEDIUM,
@@ -25,11 +27,13 @@ enum e_TextSpeed
     NUM_TEXT_SPEEDS
 };
 
-typedef struct s_GameOptions
+struct s_GameOptions
 {
-    e_TextSpeed text_speed : NUM_TEXT_SPEEDS;
+    e_TextSpeed text_speed : static_cast<uint8_t>(e_TextSpeed::NUM_TEXT_SPEEDS);
 
-} GameOptions;
+    bool nuzlocke_challenge_;
+    bool nuzlocke_fail_game_over_;
+};
 
 bool save_global_options();
 bool save_save_options();
