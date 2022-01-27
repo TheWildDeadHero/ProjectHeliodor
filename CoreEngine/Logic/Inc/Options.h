@@ -59,6 +59,9 @@ struct s_GameOptions
                                         // from recording said memories.
 
     bool reset_opening_tutorial_;       // Determines whether to enable the opening tutorial or not
+
+    bool reset_target_if_faint_;        // Determines if a monster retargets their move when the original target faints.
+    bool use_move_if_no_target_;        // Determines if a Pokemon still uses their move if the target faints.
 };
 
 bool save_global_options();

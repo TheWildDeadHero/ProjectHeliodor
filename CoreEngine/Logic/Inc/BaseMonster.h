@@ -286,8 +286,8 @@ class c_BaseMonster
         e_AbilityID             abilities_[2];
         e_AbilityID             hidden_abilities_[2];
 
-        bool                    properties_[static_cast<uint32_t>(e_PropertiesID::NUM_PROPERTIES) - 1];
-        bool                    field_abilities_[static_cast<uint32_t>(e_FieldEffectID::NUM_FIELD_EFFECTS) - 1];
+        uint32_t                properties_mask_;
+        uint32_t                field_abilities_mask_;
 };
 
 #endif // GUARD_BASE_MONSTER_H

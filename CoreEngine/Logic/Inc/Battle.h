@@ -59,18 +59,25 @@ class c_Move
 
 
     private:
-        e_MoveID id_;
+        e_MoveID        id_;
 
-        e_TypeID type_;
+        e_TypeID        type_;
+
+        e_MoveKind      kind_;
+        bool            properties_[static_cast<uint32_t>(e_MoveProperties::NUM_PROPERTIES) - 1];
 
         uint8_t power_;
         uint8_t accuracy_;
         uint8_t pp_;
-        uint8_t priority_;
 
         s_AffectMatrix affects_whom_;
 
-        e_MoveEffectID effects_[4];
+        e_MoveEffectID effects_[8];
 };
+
+class c_BattleAction
+{
+
+}
 
 #endif // GUARD_BATTLE_GENERIC_H

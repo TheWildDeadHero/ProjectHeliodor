@@ -31,6 +31,7 @@ enum class e_FieldEffectID
     ATTRACT_MONSTERS,
     LAVA_SURF,
     REPEL_MONSTERS,
+    CLEAR_LEDGES,
 
     NUM_FIELD_EFFECTS
 };
