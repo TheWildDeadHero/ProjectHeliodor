@@ -86,9 +86,13 @@ enum class e_MoveEffectID
 
 enum class e_EffectLogic
 {
+    NOT_APPLICABLE,
+
     ABOVE,
     BELOW,
-    AT
+    AT,
+
+    NUM_LOGIC
 };
 
 /**
@@ -97,6 +101,8 @@ enum class e_EffectLogic
  */
 enum class e_EffectRequirement
 {
+    NO_REQUIREMENT,
+
     LEVEL,
     OPPONENT_LEVEL,
     STAT_VALUE,

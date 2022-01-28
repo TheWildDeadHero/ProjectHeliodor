@@ -10,5 +10,13 @@
  */
 
 
-#include "BaseMonster.h"
+#include "MonsterInstance.h"
 
+
+class c_BattleMonster
+{
+    public:
+       
+    private:
+       
+};

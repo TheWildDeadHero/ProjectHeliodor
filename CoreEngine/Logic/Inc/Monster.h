@@ -214,7 +214,7 @@ class c_MonsterStatSet
  * @brief The Monster class holds all data 
  * 
  */
-class c_BaseMonster
+class c_MonsterData
 {
     public:
 
@@ -222,12 +222,12 @@ class c_BaseMonster
          * @brief Constructs a baseline monster. Everything is set to effectively be blank.
          * 
          */
-        c_BaseMonster()
+        c_MonsterData()
         {
 
         }
 
-        c_BaseMonster(e_MonsterID species, e_TypeID type_1, e_TypeID type_2)
+        c_MonsterData(e_MonsterID species, e_TypeID type_1, e_TypeID type_2)
         {
 
         }

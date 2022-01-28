@@ -11,12 +11,22 @@
 
 #ifndef GUARD_MONSTER_INSTANCE_H
 
+// Standard Includes
 #include <assert.h>
 
-#include "BaseMonster.h"
+// Engine Includes
+#include "Monster.h"
+
+// Game Includes
 #include "Abilities.h"
 #include "Items.h"
 #include "Monsters.h"
+
+// Define some templated data types for convenience and readability.
+using c_EffortValues        = c_MonsterStatSet<252, 510>;
+using c_IndividualValues    = c_MonsterStatSet<31>;
+using c_AwakeningValues     = c_MonsterStatSet<200>;
+using c_ContestValues       = c_MonsterStatSet<255, 0, e_ContestStatType, static_cast<uint32_t>(e_ContestStatType::NUM_STATS)>;
 
 
 enum class e_Nature
@@ -69,14 +79,14 @@ class c_MonsterInstance
 
         }
 
-        c_BaseMonster *get_base_monster()
+        c_MonsterData *get_monster_data()
         {
             return p_base_monster;
         }
 
     private:
         //
-        c_BaseMonster                   *p_base_monster = nullptr;
+        c_MonsterData                   *p_base_monster = nullptr;
 
         uint8_t                         species_form_;
 
@@ -90,12 +100,11 @@ class c_MonsterInstance
 
         e_AbilityID                     ability_;
 
-        c_MonsterStatSet<252, 510>      effort_values_;
-        c_MonsterStatSet<31>            individual_values_;
-        c_MonsterStatSet<200>           awakening_values_;
+        c_EffortValues                  effort_values_;
+        c_IndividualValues              individual_values_;
+        c_AwakeningValues               awakening_values_;
 
-        c_MonsterStatSet<255, 0, e_ContestStatType, static_cast<uint32_t>(e_ContestStatType::NUM_STATS)>
-                                        contest_values_;
+        c_ContestValues                 contest_values_;
         uint8_t                         sheen_;
 
         bool                            is_egg_;
@@ -105,6 +114,7 @@ class c_MonsterInstance
 
         bool                            iv_training_[static_cast<uint32_t>(e_StatType::NUM_STATS)];
 
+        uint8_t                         friendship_;
 };
 
 
