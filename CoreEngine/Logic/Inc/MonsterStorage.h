@@ -25,11 +25,13 @@ class c_MonsterStorageUnit
     protected:
         c_MonsterInstance monsters_[NUM_MONSTERS];
 
-        static c_MonsterInstance *p_selected_monster = nullptr;
-
         const uint16_t MAX_MONSTER_INDEX = NUM_MONSTERS;
 };
 
+/**
+ * @brief 
+ * 
+ */
 class c_MonsterPC : public c_MonsterStorageUnit<30 * 32>
 {
     public:

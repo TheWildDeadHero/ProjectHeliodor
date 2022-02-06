@@ -91,6 +91,7 @@ class c_MonsterInstance
         uint8_t                         species_form_;
 
         uint32_t                        personality_value_;
+        uint32_t                        characteristic_;                // The characteristic describes things like shadow status (Pokemon Colo./XD), alpha status (Pokemon Legends Arceus), and so on. The first byte (little endian) is the characteristic index and the rest describe the characteristic
 
         uint16_t                        original_trainer_id_;
         uint16_t                        original_trainer_secret_id_;

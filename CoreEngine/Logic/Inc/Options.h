@@ -62,6 +62,8 @@ struct s_GameOptions
 
     bool reset_target_if_faint_;        // Determines if a monster retargets their move when the original target faints.
     bool use_move_if_no_target_;        // Determines if a Pokemon still uses their move if the target faints.
+    bool pickup_missed_throws_;         // Determine whether to pickup Pokeballs that have missed the Pokemon or been blocked by trainers.
+    bool pickup_broken_pokeballs_;      // Determines whether to use the Pokeball Pieces mechanic or not.
 };
 
 bool save_global_options();
