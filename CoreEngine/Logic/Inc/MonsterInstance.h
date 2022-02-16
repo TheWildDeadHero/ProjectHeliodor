@@ -13,6 +13,8 @@
 
 // Standard Includes
 #include <assert.h>
+#include <array>
+#include <string>
 
 // Engine Includes
 #include "Monster.h"
@@ -34,6 +36,10 @@ enum class e_Nature
     NUM_NATURES
 };
 
+enum class e_MonsterLanguageOrigin
+{
+
+};
 
 class c_MonsterInstance
 {
@@ -48,11 +54,37 @@ class c_MonsterInstance
         /**
          * @brief Returns the personality value
          * 
-         * @return 32-bit personality integer
+         * @return 64-bit personality value
+         * 
+         * @see Personality Value
          */
-        uint32_t get_personality_value()
+        uint64_t get_full_personality()
         {
-            return personality_value_;
+            return personality_;
+        }
+
+        /**
+         * @brief Returns the base personality value
+         * 
+         * @return Lower 32-bit personality value
+         * 
+         * @see Personality Value
+         */
+        uint32_t get_low_personality()
+        {
+            return (uint32_t)(personality_ & 0xFFFFFFFF);
+        }
+
+        /**
+         * @brief Returns the extended personality value
+         * 
+         * @return Upper 32-bit personality value
+         * 
+         * @see Personality Value
+         */
+        uint32_t get_high_personality()
+        {
+            return (uint32_t)((personality_ >> 32) & 0xFFFFFFFF);
         }
 
         /**
@@ -61,12 +93,14 @@ class c_MonsterInstance
          * 
          * @param which_byte - The byte of the personality value to return (little endian)
          * @return The actual value of the byte.
+         * 
+         * @see Personality Value
          */
         uint8_t get_personality_value_byte(uint8_t which_byte)
         {
-            assert(which_byte < 4);
+            assert(which_byte < 8);
             
-            return (personality_value_ >> which_byte) && 0xFF;
+            return (personality_ >> which_byte) && 0xFF;
         }
 
         /**
@@ -90,12 +124,13 @@ class c_MonsterInstance
 
         uint8_t                         species_form_;
 
-        uint32_t                        personality_value_;
-        uint32_t                        characteristic_;                // The characteristic describes things like shadow status (Pokemon Colo./XD), alpha status (Pokemon Legends Arceus), and so on. The first byte (little endian) is the characteristic index and the rest describe the characteristic
+        // uint64s to be changed to DWords
+        uint64_t                        personality_;                   // Personality is now a DWORD. The lower word is the standard personality and the upper word is extended.
+        uint64_t                        characteristic_;                // The characteristic describes things like shadow status (Pokemon Colo./XD), alpha status (Pokemon Legends Arceus), and so on. The first byte (little endian) is the characteristic index and the rest describe the characteristic
 
         uint16_t                        original_trainer_id_;
         uint16_t                        original_trainer_secret_id_;
-        uint16_t                        original_trainer_name[18];
+        std::string                     original_trainer_name;
 
         uint32_t                        experience_points_;
 
@@ -108,10 +143,9 @@ class c_MonsterInstance
         c_ContestValues                 contest_values_;
         uint8_t                         sheen_;
 
-        bool                            is_egg_;
-        bool                            has_hidden_ability_;
-
         e_Nature                        nature_;
+
+        bool                            is_loaner_;                     // A loaner is either a simulated monster or a 
 
         bool                            iv_training_[static_cast<uint32_t>(e_StatType::NUM_STATS)];
 

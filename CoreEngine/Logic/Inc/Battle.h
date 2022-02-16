@@ -18,4 +18,16 @@
 
 static void set_up_battle_sequence();
 
+enum class e_StageStatType
+{
+    ATTACK,             /**< Physical attack power */
+    DEFENSE,            /**< Physical defense */
+    SPECIAL_ATTACK,     /**< Special attack power */
+    SPECIAL_DEFENCE,    /**< Special defense */
+    ACCURACY,           /**< Accuracy */
+    EVASIVENESS,        /**< Evasiveness */
+
+    NUM_STATS           /**< Counter value */
+};
+
 #endif // GUARD_BATTLE_GENERIC_H
