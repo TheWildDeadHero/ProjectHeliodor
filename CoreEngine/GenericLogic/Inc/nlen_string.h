@@ -12,7 +12,7 @@
 #include <string>
 
 template <size_t LENGTH_LIMIT>
-class LimitedString : public std::string
+class nlen_string_t : public std::string
 {
     public:
         uint32_t max_length();
@@ -23,4 +23,4 @@ class LimitedString : public std::string
 
     private:
         size_t max_length_ = LENGTH_LIMIT;
-}
+};

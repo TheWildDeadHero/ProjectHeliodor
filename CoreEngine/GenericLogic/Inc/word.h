@@ -37,7 +37,7 @@ class __WordABC
         size_t num_bytes_ = sizeof(TYPE);
 };
 
-class word8_t : public __WordABC
+class word8_t : public __WordABC<uint8_t>
 {
     public:
 

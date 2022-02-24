@@ -12,13 +12,13 @@
 #include <stdint.h>
 
 template <typename NUMERIC_TYPE, NUMERIC_TYPE MIN_VALUE, NUMERIC_TYPE MAX_VALUE, bool RING_TYPE>
-class LimitedValue
+class bound_value_t
 {
     public:
-        LimitedValue();
-        LimitedValue(NUMERIC_TYPE);
+        bound_value_t();
+        bound_value_t(NUMERIC_TYPE);
 
-        ~LimitedValue();
+        ~bound_value_t();
 
     private:
         NUMERIC_TYPE value_;
