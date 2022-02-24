@@ -11,7 +11,7 @@
 
 enum class e_FieldEffectID
 {
-    NO_EFFECT,
+    NO_EFFECT,          /**< 
 
     TELEPORT,
     SURF,

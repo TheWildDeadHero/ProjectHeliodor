@@ -27,31 +27,7 @@ using a_Box     = std::array<c_MonsterInstance*, n_MonsterStorageData::NUM_MONST
 
 static std::array<c_MonsterInstance, n_MonsterStorageData::TOTAL_NUM_MONSTERS> all_player_monsters_;
 
-using a_MonsterStorage = std::array<c_MonsterInstance, 
-using a_Box     = std::array<c_MonsterInstance*, 30>;
-using a_Party   = std::array<c_MonsterInstance*, 6>;
-using a_Party   = std::array<
-using a_PC      = std::array<a_Box, 24>;
-
 static a_Party players_party_;
-static a_PC players_pc_;
-
-template <uint16_t NUM_MONSTERS>
-class c_MonsterStorageUnit
-{
-    public:
-
-    void select_monster(uint16_t which_monster)
-    {
-
-    }
-
-
-    protected:
-        c_MonsterInstance monsters_[NUM_MONSTERS];
-
-        const uint16_t MAX_MONSTER_INDEX = NUM_MONSTERS;
-};
 
 /**
  * @brief 

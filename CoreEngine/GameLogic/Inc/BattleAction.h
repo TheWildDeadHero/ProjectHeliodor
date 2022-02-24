@@ -9,6 +9,23 @@
  * 
  */
 
+enum class e_BattleActionID
+{
+    INCREASE_STATS,
+    DECREASE_STATS,
+    HEAL_HP,
+    INFLICT_DAMAGE,
+    HEAL_STATUS,
+    INFLICT_STATUS,
+    HEAL_CONDITION,
+    INFLICT_CONDITION,
+    CHANGE_WEATHER,
+    CHANGE_FIELD,
+    CHANGE_GRAVITY,
+    CHANGE_MONSTER,
+    FORFEIT
+};
+
 class c_BattleAction
 {
     public:
@@ -17,6 +34,10 @@ class c_BattleAction
         {
             return p_first_action_;
         }
+
+        static void add_action(c_BattleAction);
+
+        static void clear_playlist();
        
 
     private:
@@ -25,5 +46,7 @@ class c_BattleAction
         static c_BattleAction    *p_first_action_;
 
         c_BattleAction           *next_ = nullptr;
+
+        e_BattleActionID         which_action_;
 
 };
