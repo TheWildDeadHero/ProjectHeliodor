@@ -26,5 +26,4 @@ class c_BattleMonster
        c_MonsterInstance *instance_data_;
 
        c_BattleStats stats_;
-
 };

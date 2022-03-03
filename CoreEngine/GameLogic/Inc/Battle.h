@@ -15,8 +15,8 @@
 
 #include "Moves.h"
 #include "Types.h"
+#include "BattleMonster.h"
 
-static void set_up_battle_sequence();
 
 enum class e_StageStatType
 {
@@ -29,5 +29,32 @@ enum class e_StageStatType
 
     NUM_STATS           /**< Counter value */
 };
+
+enum class e_BattleType
+{
+    SINGLE,
+    DOUBLE,
+    TRIPLE,
+    ROTATION,
+    RAID,
+    BATTLE_ROYALE
+}
+
+enum class e_BattleType2
+{
+    WILD,
+    TRAINER,
+    ROAMER,
+}
+
+class Battle
+{
+    public:
+        void clear() { };
+
+    private:
+
+    
+}
 
 #endif // GUARD_BATTLE_GENERIC_H

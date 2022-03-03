@@ -1,16 +1,28 @@
 /**
- * @file Word.h
- * @author your name (you@domain.com)
- * @brief 
+ * @file word.h
+ * @author TheWildDeadHero
+ * @brief Provides definitions for "words". "Words", in this sense, are defined as
+ *        integers that provide additional functionality for easy bytewise and
+ *        bitwise manipulation. Each word implements anonymous unions in order to
+ *        provide legible, easy-to-use functionality.
  * @version 0.1
  * @date 2022-02-22
  * 
  * @copyright Copyright (c) 2022
  * 
  */
+#ifndef GUARD_WORD_TYPE_H
+#define GUARD_WORD_TYPE_H
 
 #include <stdint.h>
 
+/**
+ * @brief Templated abstract base class that provides prototypes for all bitwise and bytewise operations
+ *        all words need to implement.
+ * 
+ * @tparam TYPE - An integer type used to define prototype functionality. Needs to match the type implemented
+ *                by a given word.
+ */
 template <typename TYPE>
 class __WordABC
 {
@@ -63,7 +75,7 @@ class word8_t : public __WordABC<uint8_t>
         
 };
 
-class word16_t : public __WordABC
+class word16_t : public __WordABC<uint16_t>
 {
     public:
 
@@ -108,7 +120,7 @@ class word16_t : public __WordABC
         
 };
 
-class word32_t : public __WordABC
+class word32_t : public __WordABC<uint32_t>
 {
     public:
 
@@ -149,3 +161,5 @@ class word32_t : public __WordABC
         };
         
 };
+
+#endif // GUARD_WORD_TYPE_H

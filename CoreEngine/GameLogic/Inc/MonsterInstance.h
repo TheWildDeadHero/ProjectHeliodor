@@ -45,33 +45,6 @@ enum class e_CharacteristicID
     LOANER
 };
 
-enum class e_MonsterOriginRegion
-{
-    NORTHERN_AMERICA,
-    CENTRAL_AMERICA,
-    CARRIBEAN,
-    SOUTH_AMERICA,
-    EASTERN_EUROPE,
-    SOUTHERN_EUROPE,
-    WESTERN_EUROPE,
-    NORTHERN_EUROPE,
-    WEST_ASIA,
-    SOUTH_ASIA,
-    SOUTH_EAST_ASIA,
-    EAST_ASIA,
-    NORTH_ASIA,
-    CENTRAL_ASIA,
-    NORTHERN_AFRICA,
-    EASTERN_AFRICA,
-    WESTERN_AFRICA,
-    MIDDLE_AFRICA,
-    SOUTHERN_AFRICA,
-    MICRONESIA,
-    POLYNESIA,
-    MELANESIA,
-    AUS_AND_NZ
-};
-
 enum class e_MonsterNameLanguage
 {
     JAPANESE,
@@ -193,7 +166,6 @@ class c_MonsterInstance
 
         uint8_t                         friendship_;
 
-        e_MonsterOriginRegion           origin_;
         e_MonsterNameLanguage           language_;
 };
 

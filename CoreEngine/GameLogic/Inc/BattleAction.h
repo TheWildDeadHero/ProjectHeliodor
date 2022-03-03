@@ -49,4 +49,6 @@ class c_BattleAction
 
         e_BattleActionID         which_action_;
 
+        
+
 };
