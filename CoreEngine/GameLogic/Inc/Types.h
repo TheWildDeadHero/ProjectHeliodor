@@ -21,37 +21,40 @@
  */
 enum class e_TypeID
 {
-    NO_TYPE,
+    NO_TYPE,        /**< No Type - None-type indicator */
 
-    NORMAL,
-    FIRE,
-    FIGHTING,
-    WATER,
-    FLYING,
-    GRASS,
-    POISON,
-    ELECTRIC,
-    GROUND,
-    PSYCHIC,
-    ROCK,
-    ICE,
-    BUG,
-    DRAGON,
-    GHOST,
-    DARK,
-    STEEL,
-    FAIRY,
-    UNKOWN,
+    NORMAL,         /**< Normal Type        */
+    FIRE,           /**< Fire Type          */
+    FIGHTING,       /**< Fighting Type      */
+    WATER,          /**< Water Type         */
+    FLYING,         /**< Flying Type        */
+    GRASS,          /**< Grass Type         */
+    POISON,         /**< Poison Type        */
+    ELECTRIC,       /**< Electric Type      */
+    GROUND,         /**< Groud Type         */
+    PSYCHIC,        /**< Psychic Type       */
+    ROCK,           /**< Rock Type          */
+    ICE,            /**< Ice Type           */
+    BUG,            /**< Bug Type           */
+    DRAGON,         /**< Dragon Type        */
+    GHOST,          /**< Ghost Type         */
+    DARK,           /**< Dark Type          */
+    STEEL,          /**< Steel Type         */
+    FAIRY,          /**< Fairy Type         */
 
-    SOUND,
-    GEM,
+    UNKOWN,         /**< Unknown Type - Special type for certain moves */
+
+    BIRD,           /**< Bird Type - Beta move type. Effectively the same as Flying. */
+    SOUND,          /**< Sound Type - Custom type for user implementations. */
+    GEM,            /**< Gem Type - Custom type for Crystal Onix. Implements said weakness/resistance table.
+                         USING THIS FOR AN ATTACK TYPE IS NOT SUPPORTED!! */
 
     /* USER CODE - Add custom types here */
-    /* Make sure to edit the type table in the associated source file */
+    /* Make sure to edit the type table in the associated source file!! */
 
     /* END USER CODE */
 
-    NUM_TYPES
+    NUM_TYPES       /**< Num Type - Type counter */
 };
 
 #endif //GUARD_MONSTER_TYPES_H

@@ -40,7 +40,7 @@ enum class e_BattleType
     BATTLE_ROYALE
 }
 
-enum class e_BattleType2
+enum class e_BattleFlags
 {
     WILD,
     TRAINER,

@@ -9,20 +9,27 @@
  * 
  */
 
+#ifndef GUARD_WEATHER_H
+#define GUARD_WEATHER_H
+
 #include <stdint.h>
 
+/**
+ * @brief Enumerator for precipiation type for battles and overworld behavior.
+ * 
+ */
 enum class e_PrecipitationType
 {
-    CLEAR,
-    RAIN,
-    SNOW,
-    FOG,
-    SAND,
-    HAIL,
-    FALLING_ASH,
-    ACID_RAIN,
+    CLEAR,          /**< No precipitation           */
+    RAIN,           /**< Rain                       */
+    SNOW,           /**< Snow                       */
+    FOG,            /**< Fog/Mist                   */
+    SAND,           /**< Sandstorm                  */
+    HAIL,           /**< Hail/Falling Ice           */
+    ASH,            /**< Falling ash from volcano   */
+    ACID_RAIN,      /**< Acid rain                  */
 
-    NUM_PRECIPITATIONS
+    NUM_PRECIPITATIONS  /**< Precipitation Counter */
 };
 
 enum class e_WindType
@@ -31,6 +38,7 @@ enum class e_WindType
     LIGHT,
     MEDIUM,
     GALE,
+    INDOOR,
 
     NUM_WINDS
 };
@@ -39,10 +47,10 @@ enum class e_SkyType
 {
     CLEAR,
     CLOUDY,
-    DARK,
     LIGHTNING,
     RAINBOW,
     BRIGHT,
+    INDOOR,
 
     NUM_SKIES
 };
@@ -55,8 +63,23 @@ enum class e_TemperatureType
     WARM,
     HOT,
     SPACE,
+    INDOOR,
 
     NUM_TEMPERATURES
+};
+
+enum class e_LightType
+{
+    DAWN,
+    MORNING,
+    MIDDAY,
+    EVENING,
+    DUSK,
+    NIGHT,
+    INDOOR_DARK,
+    INDOOR_LIGHT,
+
+    NUM_LIGHTS
 };
 
 struct s_WeatherType
@@ -90,3 +113,6 @@ const s_WeatherType CLEAR_WEATHER = { e_PrecipitationType::CLEAR,
                                       e_WindType::CALM,
                                       e_SkyType::CLEAR,
                                       e_TemperatureType::NORMAL };
+
+
+#endif // GUARD_WEATHER_H

@@ -9,22 +9,7 @@
  * 
  */
 
-enum class e_BattleActionID
-{
-    INCREASE_STATS,
-    DECREASE_STATS,
-    HEAL_HP,
-    INFLICT_DAMAGE,
-    HEAL_STATUS,
-    INFLICT_STATUS,
-    HEAL_CONDITION,
-    INFLICT_CONDITION,
-    CHANGE_WEATHER,
-    CHANGE_FIELD,
-    CHANGE_GRAVITY,
-    CHANGE_MONSTER,
-    FORFEIT
-};
+#include <stdint.h>
 
 class c_BattleAction
 {
