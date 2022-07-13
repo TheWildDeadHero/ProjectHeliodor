@@ -19,30 +19,30 @@
  * @brief Enumerator that keeps track of the types in the game.
  * 
  */
-enum class e_TypeID
+enum class e_TypeID : uint16_t
 {
     NO_TYPE,        /**< No Type - None-type indicator */
 
     NORMAL,         /**< Normal Type        */
     FIRE,           /**< Fire Type          */
-    FIGHTING,       /**< Fighting Type      */
     WATER,          /**< Water Type         */
-    FLYING,         /**< Flying Type        */
-    GRASS,          /**< Grass Type         */
-    POISON,         /**< Poison Type        */
     ELECTRIC,       /**< Electric Type      */
-    GROUND,         /**< Groud Type         */
-    PSYCHIC,        /**< Psychic Type       */
-    ROCK,           /**< Rock Type          */
+    GRASS,          /**< Grass Type         */
     ICE,            /**< Ice Type           */
+    FIGHTING,       /**< Fighting Type      */
+    POISON,         /**< Poison Type        */
+    GROUND,         /**< Groud Type         */
+    FLYING,         /**< Flying Type        */
+    PSYCHIC,        /**< Psychic Type       */
     BUG,            /**< Bug Type           */
-    DRAGON,         /**< Dragon Type        */
+    ROCK,           /**< Rock Type          */
     GHOST,          /**< Ghost Type         */
+    DRAGON,         /**< Dragon Type        */
     DARK,           /**< Dark Type          */
     STEEL,          /**< Steel Type         */
     FAIRY,          /**< Fairy Type         */
 
-    UNKOWN,         /**< Unknown Type - Special type for certain moves */
+    UNKNOWN,        /**< Unknown Type - Special type for certain moves */
 
     BIRD,           /**< Bird Type - Beta move type. Effectively the same as Flying. */
     SOUND,          /**< Sound Type - Custom type for user implementations. */
@@ -55,6 +55,15 @@ enum class e_TypeID
     /* END USER CODE */
 
     NUM_TYPES       /**< Num Type - Type counter */
+};
+
+enum class e_TypeMatchup : uint8_t
+{
+    NO_EFFECT           = 0U,
+    NOT_VERY_EFFECTIVE  = 4U,
+    EFFECTIVE           = 8U,
+    SUPER_EFFECTIVE     = 16U,
+    ONE_HIT_KO          = 255U
 };
 
 #endif //GUARD_MONSTER_TYPES_H

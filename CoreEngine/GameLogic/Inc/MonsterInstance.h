@@ -29,6 +29,7 @@ using c_EffortValues        = c_MonsterStatSet<252, 510>;
 using c_IndividualValues    = c_MonsterStatSet<31>;
 using c_AwakeningValues     = c_MonsterStatSet<200>;
 using c_ContestValues       = c_MonsterStatSet<255, 0, e_ContestStatType, static_cast<uint32_t>(e_ContestStatType::NUM_STATS)>;
+using c_Stats               = c_MonsterStatSet<9999U>;
 
 
 enum class e_Nature
@@ -137,36 +138,35 @@ class c_MonsterInstance
 
     private:
         //
-        c_MonsterData                   *p_base_monster = nullptr;
+        c_MonsterData                                                       *p_base_monster = nullptr;
 
-        uint8_t                         species_form_;
+        uint8_t                                                             species_form_;
 
-        // uint64s to be changed to DWords
-        uint64_t                        personality_;                   // Personality is now a DWORD. The lower word is the standard personality and the upper word is extended.
-        uint64_t                        characteristic_;                // The characteristic describes things like shadow status (Pokemon Colo./XD), alpha status (Pokemon Legends Arceus), and so on. The first byte (little endian) is the characteristic index and the rest describe the characteristic
+        uint64_t                                                            personality_;                   // Personality is now a DWORD. The lower word is the standard personality and the upper word is extended.
+        uint64_t                                                            characteristic_;                // The characteristic describes things like shadow status (Pokemon Colo./XD), alpha status (Pokemon Legends Arceus), and so on. The first byte (little endian) is the characteristic index and the rest describe the characteristic
 
-        uint16_t                        original_trainer_id_;
-        uint16_t                        original_trainer_secret_id_;
-        std::string                     original_trainer_name;
+        uint16_t                                                            original_trainer_id_;
+        uint16_t                                                            original_trainer_secret_id_;
+        std::string                                                         original_trainer_name;
 
-        uint32_t                        experience_points_;
+        uint32_t                                                            experience_points_;
 
-        e_AbilityID                     ability_;
+        e_AbilityID                                                         ability_;
 
-        c_EffortValues                  effort_values_;
-        c_IndividualValues              individual_values_;
-        c_AwakeningValues               awakening_values_;
+        c_EffortValues                                                      effort_values_;
+        c_IndividualValues                                                  individual_values_;
+        c_AwakeningValues                                                   awakening_values_;
 
-        c_ContestValues                 contest_values_;
-        uint8_t                         sheen_;
+        c_ContestValues                                                     contest_values_;
+        uint8_t                                                             sheen_;
 
-        e_Nature                        nature_;
+        e_Nature                                                            nature_;
 
-        bool                            iv_training_[static_cast<uint32_t>(e_StatType::NUM_STATS)];
+        std::array<bool, static_cast<uint32_t>(e_StatType::NUM_STATS)>      iv_training_;
 
-        uint8_t                         friendship_;
+        uint8_t                                                             friendship_;
 
-        e_MonsterNameLanguage           language_;
+        e_MonsterNameLanguage                                               language_;
 };
 
 

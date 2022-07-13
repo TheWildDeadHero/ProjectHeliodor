@@ -15,79 +15,85 @@
 #include <stdint.h>
 
 /**
- * @brief Enumerator for precipiation type for battles and overworld behavior.
+ * @brief 
  * 
  */
-enum class e_PrecipitationType
+namespace WeatherData
 {
-    CLEAR,          /**< No precipitation           */
-    RAIN,           /**< Rain                       */
-    SNOW,           /**< Snow                       */
-    FOG,            /**< Fog/Mist                   */
-    SAND,           /**< Sandstorm                  */
-    HAIL,           /**< Hail/Falling Ice           */
-    ASH,            /**< Falling ash from volcano   */
-    ACID_RAIN,      /**< Acid rain                  */
+    /**
+     * @brief Enumerator for precipiation type for battles and overworld behavior.
+     * 
+     */
+    enum class PrecipitationType
+    {
+        CLEAR,              /**< No precipitation           */
+        RAIN,               /**< Rain                       */
+        SNOW,               /**< Snow                       */
+        FOG,                /**< Fog/Mist                   */
+        SAND,               /**< Sandstorm                  */
+        HAIL,               /**< Hail/Falling Ice           */
+        ASH,                /**< Falling ash from volcano   */
+        ACID_RAIN,          /**< Acid rain                  */
 
-    NUM_PRECIPITATIONS  /**< Precipitation Counter */
+        NUM_PRECIPITATIONS  /**< Precipitation Counter */
+    };
+
+    /**
+     * @brief 
+     * 
+     */
+    enum class WindType
+    {
+        CALM,               /**< */
+        LIGHT,              /**< */
+        MEDIUM,             /**< */
+        GALE,               /**< */
+
+        NUM_WINDS           /**< */
+    };
+
+    /**
+     * @brief 
+     * 
+     */
+    enum class SkyType
+    {
+        CLEAR,              /**< */
+        CLOUDY,             /**< */
+        LIGHTNING,          /**< */
+        RAINBOW,            /**< */
+        BRIGHT,             /**< */
+
+        NUM_SKIES           /**< */
+    };
+
+    /**
+     * @brief 
+     * 
+     */
+    enum class TemperatureType
+    {
+        FREEZING,           /**< */
+        COLD,               /**< */
+        NORMAL,             /**< */
+        WARM,               /**< */
+        HOT,                /**< */
+        SPACE,              /**< */
+
+        NUM_TEMPERATURES    /**< */
+    };
 };
 
-enum class e_WindType
+/**
+ * @brief 
+ * 
+ */
+struct WeatherType
 {
-    CALM,
-    LIGHT,
-    MEDIUM,
-    GALE,
-    INDOOR,
-
-    NUM_WINDS
-};
-
-enum class e_SkyType
-{
-    CLEAR,
-    CLOUDY,
-    LIGHTNING,
-    RAINBOW,
-    BRIGHT,
-    INDOOR,
-
-    NUM_SKIES
-};
-
-enum class e_TemperatureType
-{
-    FREEZING,
-    COLD,
-    NORMAL,
-    WARM,
-    HOT,
-    SPACE,
-    INDOOR,
-
-    NUM_TEMPERATURES
-};
-
-enum class e_LightType
-{
-    DAWN,
-    MORNING,
-    MIDDAY,
-    EVENING,
-    DUSK,
-    NIGHT,
-    INDOOR_DARK,
-    INDOOR_LIGHT,
-
-    NUM_LIGHTS
-};
-
-struct s_WeatherType
-{
-    e_PrecipitationType precipitation_;
-    e_WindType          wind_;
-    e_SkyType           sky_;
-    e_TemperatureType   temperature_;
+    WeatherData::PrecipitationType precipitation_;  /**< */
+    WeatherData::WindType          wind_;           /**< */
+    WeatherData::SkyType           sky_;            /**< */
+    WeatherData::TemperatureType   temperature_;    /**< */
 };
 
 /*
@@ -109,10 +115,10 @@ const _Weather blizzard = {PRECIP_SNOW, WIND_GALE, SKY_CLOUDY, TEMP_FREEZING};
  * 
  */
 
-const s_WeatherType CLEAR_WEATHER = { e_PrecipitationType::CLEAR,
-                                      e_WindType::CALM,
-                                      e_SkyType::CLEAR,
-                                      e_TemperatureType::NORMAL };
+const WeatherType CLEAR_WEATHER = { WeatherData::PrecipitationType::CLEAR,
+                                    WeatherData::WindType::CALM,
+                                    WeatherData::SkyType::CLEAR,
+                                    WeatherData::TemperatureType::NORMAL };
 
 
 #endif // GUARD_WEATHER_H

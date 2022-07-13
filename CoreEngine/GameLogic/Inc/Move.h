@@ -12,6 +12,7 @@
 #include <stdint.h>
 #include <assert.h>
 #include <array>
+#include <string>
 
 #include "Moves.h"
 #include "Types.h"
@@ -32,8 +33,7 @@ enum class e_MoveEffectID
     HEAL_STATUS,
     INFLICT_CONDITION,
     HEAL_CONDITION,
-    INCREASE_PRIORITY,
-    DECREASE_PRIORITY,
+    CHANGE_PRIORITY,
     CHANGE_FIELD,
     CHANGE_WEATHER,
     CHANGE_GRAVITY,
@@ -49,10 +49,8 @@ enum class e_MoveEffectID
     SET_FUTURE_RECOVER,
     SET_FUTURE_STATUS,
     SET_FUTURE_CONDITION,
-    AVOID_RESISTANCE,
-    AVOID_WEAKNESS,
-    ADD_RESISTANCE,
-    ADD_WEAKNESS,
+    CHANGE_RESISTANCE,
+    CHANGE_WEAKNESS,
     LEAVE_ONE_HP,
     MAKE_TIRED,
     REMOVE_TYPE,
@@ -126,6 +124,7 @@ enum class e_MoveEffectRequirementID
     HAS_FRIENDSHIP_LEVEL,
     IS_GENDER,
     IS_USING_MOVE,
+    IS_MONSTER,
 
     NUM_REQUIREMENTS
 };
@@ -167,6 +166,8 @@ enum class e_ConditionIDs
  */
 enum class e_MoveEffectKind
 {
+    UNUSED,
+
     PHYSICAL,
     SPECIAL,
     STAT,
@@ -213,12 +214,13 @@ enum class e_MovePriorityFlags
  */
 union u_MoveEffectData
 {
-    uint16_t points;
+    uint16_t num_points;
     uint8_t percent;
     uint8_t num_stages;
     uint8_t num_turns;
     e_StatusIDs status;
     e_ConditionIDs condition;
+
 };
 
 /**
@@ -232,7 +234,9 @@ struct s_MoveEffectRequirementInfo
     
     u_MoveEffectData data_;
 
-    bool check_target_;
+    bool check_target_;                             /**< Determines whether to check the
+                                                     *   target of the effect or the user
+                                                     */
 };
 
 /**
@@ -308,15 +312,21 @@ struct s_MoveEffect
 struct s_MoveData
 {
     e_MoveID        id_;
+    std::string     name_;
 
     uint8_t         base_pp_;
 
-    e_MoveEffectID effects_[8];
+    std::array<e_MoveEffectID, 8U> effects_;
+
     e_MoveEffectID *primary_effect_;
 
-    bool any_secondary_effects_;       
+    uint8_t num_secondary_effects_;       
 };
 
+/**
+ * @brief 
+ * 
+ */
 class c_BattleMove
 {
     s_MoveData  *p_move_data_;

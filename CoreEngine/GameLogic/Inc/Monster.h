@@ -14,6 +14,8 @@
 // Standard Includes
 #include <stdint.h>
 #include <assert.h>
+#include <string>
+#include <array>
 
 // Project Includes
 #include "Monsters.h"
@@ -303,33 +305,35 @@ class c_MonsterData
             // set species
         }
 
-        e_MonsterID             monster_;
-        e_SpeciesID             species_;
+        e_MonsterID                 monster_;
+        e_SpeciesID                 species_;
 
-        e_TypeID                types_[2];
+        std::string                 name_;
 
-        c_MonsterStatSet<>      base_stats_;
+        std::array<e_TypeID, 2>     types_;
 
-        uint8_t                 experience_point_yield_;
-        c_MonsterStatSet<16>    effort_value_yield_;
+        c_MonsterStatSet<>          base_stats_;
 
-        uint8_t                 gender_ratio_;
-        uint8_t                 capture_rate_;
+        uint8_t                     experience_point_yield_;
+        c_MonsterStatSet<16>        effort_value_yield_;
 
-        e_ItemID                held_items_[2];
-        e_ItemID                hidden_held_items[2];
-        e_ItemID                pickup_items_[2];
+        uint8_t                     gender_ratio_;
+        uint8_t                     capture_rate_;
 
-        uint8_t                 egg_cycles_;
-        e_EggGroup              egg_groups_[2];
+        std::array<e_ItemID, 2>     held_items_;
+        std::array<e_ItemID, 2>     hidden_held_items;
+        std::array<e_ItemID, 2>     pickup_items_;
 
-        uint8_t                 base_friendship_;
+        uint8_t                     egg_cycles_;
+        std::array<e_EggGroup, 2>   egg_groups_;
 
-        e_AbilityID             abilities_[2];
-        e_AbilityID             hidden_abilities_[2];
+        uint8_t                     base_friendship_;
 
-        uint32_t                properties_mask_;
-        uint32_t                field_abilities_mask_;
+        std::array<e_AbilityID, 2>  abilities_;
+        std::array<e_AbilityID, 2>  hidden_abilities_;
+
+        uint32_t                    properties_mask_;
+        uint32_t                    field_abilities_mask_;
 };
 
 #endif // GUARD_BASE_MONSTER_H

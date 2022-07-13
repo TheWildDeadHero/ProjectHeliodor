@@ -40,6 +40,23 @@ enum class e_BattleType
     BATTLE_ROYALE
 }
 
+union u_PartySetup
+{
+    struct
+    {
+        bool slot_1 : 1;
+        bool slot_2 : 1;
+        bool slot_3 : 1;
+        bool slot_4 : 1;
+        bool slot_5 : 1;
+        bool slot_6 : 1;
+        bool slot_7 : 1;
+        bool slot_8 : 1;
+    }
+
+    uint8_t data;
+}
+
 enum class e_BattleFlags
 {
     WILD,
