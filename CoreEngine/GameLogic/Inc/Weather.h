@@ -63,6 +63,7 @@ namespace WeatherData
         LIGHTNING,          /**< */
         RAINBOW,            /**< */
         BRIGHT,             /**< */
+        STAR_SHOWER,        /**< */
 
         NUM_SKIES           /**< */
     };

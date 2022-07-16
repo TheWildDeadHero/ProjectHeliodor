@@ -142,9 +142,11 @@ class c_MonsterInstance
 
         uint8_t                                                             species_form_;
 
-        uint64_t                                                            personality_;                   // Personality is now a DWORD. The lower word is the standard personality and the upper word is extended.
-        uint64_t                                                            characteristic_;                // The characteristic describes things like shadow status (Pokemon Colo./XD), alpha status (Pokemon Legends Arceus), and so on. The first byte (little endian) is the characteristic index and the rest describe the characteristic
-
+        uint32_t                                                            personality_1_;                   // Personality is now a DWORD. The lower word is the standard personality and the upper word is extended.
+        uint32_t                                                            personality_2_;
+        uint32_t                                                            characteristic_1_;                // The characteristic describes things like shadow status (Pokemon Colo./XD), alpha status (Pokemon Legends Arceus), and so on. The first byte (little endian) is the characteristic index and the rest describe the characteristic
+        uint32_t                                                            characteristic_2_;
+    
         uint16_t                                                            original_trainer_id_;
         uint16_t                                                            original_trainer_secret_id_;
         std::string                                                         original_trainer_name;

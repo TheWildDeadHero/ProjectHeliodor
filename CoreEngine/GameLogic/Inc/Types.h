@@ -49,11 +49,6 @@ enum class e_TypeID : uint16_t
     GEM,            /**< Gem Type - Custom type for Crystal Onix. Implements said weakness/resistance table.
                          USING THIS FOR AN ATTACK TYPE IS NOT SUPPORTED!! */
 
-    /* USER CODE - Add custom types here */
-    /* Make sure to edit the type table in the associated source file!! */
-
-    /* END USER CODE */
-
     NUM_TYPES       /**< Num Type - Type counter */
 };
 
@@ -62,8 +57,7 @@ enum class e_TypeMatchup : uint8_t
     NO_EFFECT           = 0U,
     NOT_VERY_EFFECTIVE  = 4U,
     EFFECTIVE           = 8U,
-    SUPER_EFFECTIVE     = 16U,
-    ONE_HIT_KO          = 255U
+    SUPER_EFFECTIVE     = 16U
 };
 
 #endif //GUARD_MONSTER_TYPES_H
