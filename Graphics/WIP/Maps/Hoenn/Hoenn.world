@@ -1,0 +1,97 @@
+{
+    "maps": [
+        {
+            "fileName": "Littleroot Town.tmx",
+            "height": 320,
+            "width": 320,
+            "x": -1088,
+            "y": 416
+        },
+        {
+            "fileName": "Route 101.tmx",
+            "height": 320,
+            "width": 960,
+            "x": -1088,
+            "y": 96
+        },
+        {
+            "fileName": "Oldale Town.tmx",
+            "height": 320,
+            "width": 320,
+            "x": -1088,
+            "y": -224
+        },
+        {
+            "fileName": "Route 103.tmx",
+            "height": 640,
+            "width": 1280,
+            "x": -1088,
+            "y": -864
+        },
+        {
+            "fileName": "Route 102.tmx",
+            "height": 320,
+            "width": 800,
+            "x": -1888,
+            "y": -224
+        },
+        {
+            "fileName": "Petalburg City.tmx",
+            "height": 480,
+            "width": 480,
+            "x": -2368,
+            "y": -384
+        },
+        {
+            "fileName": "Route 110.tmx",
+            "height": 1600,
+            "width": 640,
+            "x": 192,
+            "y": -1504
+        },
+        {
+            "fileName": "Route 104.tmx",
+            "height": 1280,
+            "width": 640,
+            "x": -3008,
+            "y": -1184
+        },
+        {
+            "fileName": "Rustboro City.tmx",
+            "height": 960,
+            "width": 640,
+            "x": -3008,
+            "y": -2144
+        },
+        {
+            "fileName": "Mauville City.tmx",
+            "height": 320,
+            "width": 640,
+            "x": 192,
+            "y": -1824
+        },
+        {
+            "fileName": "Route 105.tmx",
+            "height": 1280,
+            "width": 640,
+            "x": -3008,
+            "y": 96
+        },
+        {
+            "fileName": "Route 106.tmx",
+            "height": 320,
+            "width": 1600,
+            "x": -3008,
+            "y": 1376
+        },
+        {
+            "fileName": "Dewford Town.tmx",
+            "height": 320,
+            "width": 320,
+            "x": -2048,
+            "y": 1696
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

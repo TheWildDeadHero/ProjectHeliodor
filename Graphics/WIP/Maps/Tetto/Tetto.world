@@ -1,0 +1,41 @@
+{
+    "maps": [
+        {
+            "fileName": "Jade Springs.tmx",
+            "height": 384,
+            "width": 768,
+            "x": 384,
+            "y": -384
+        },
+        {
+            "fileName": "Route 82.tmx",
+            "height": 512,
+            "width": 768,
+            "x": 384,
+            "y": 0
+        },
+        {
+            "fileName": "Route 81.tmx",
+            "height": 512,
+            "width": 768,
+            "x": 384,
+            "y": -896
+        },
+        {
+            "fileName": "Carnelian Town.tmx",
+            "height": 768,
+            "width": 768,
+            "x": 384,
+            "y": -1664
+        },
+        {
+            "fileName": "Route 83.tmx",
+            "height": 512,
+            "width": 1024,
+            "x": -640,
+            "y": 0
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

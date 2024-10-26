@@ -1,0 +1,2087 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Foliage/Template.tmx",
+    "expandedProjectPaths": [
+        "Individual Sprite Sheets",
+        "RPG Maker XP Tilesets",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16",
+        "Tiled Tilesets/NPCs",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Foliage",
+        "Maps/Irida",
+        "Tiled Tilesets/Third Party Tilesets",
+        "Reference Material",
+        "Tilesets/Third Party Tilesets",
+        "Temporary Tilesets",
+        "Individual Sprite Sheets/Outdoor Tiles",
+        "Maps/Random",
+        "Tilesets/Nintendo Official Unedited",
+        "Maps/Johto",
+        "Tiled Tilesets",
+        "Maps/Hoenn",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Decorations",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings",
+        ".",
+        "Tilesets"
+    ],
+    "exportAsImage.visibleLayersOnly": true,
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Individual Sprite Sheets/Outdoor Tiles/Battle Tent.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 182.33333333333331,
+                "y": -15.666666666666686
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Battle Tent.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Bill's House Palette 2.tmx": {
+            "scale": 9.047265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.05250205086136,
+                "y": 64.05250205086138
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Bill's House Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Bill's House.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Building Template.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 134.83333333333334,
+                "y": 62.999999999999986
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 1.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 60.373297460904666,
+                "y": 61.66470489322348
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 2.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.03228518580798,
+                "y": 64.03228518580799
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 3.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.03228518580798,
+                "y": 64.03228518580799
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 4 Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 4.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.03228518580798,
+                "y": 64.03228518580799
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 5.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.03228518580798,
+                "y": 64.03228518580799
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 5.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center 6.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.03228518580798,
+                "y": 64.03228518580799
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Center.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Cinnibar Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Comm Center.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 60.480914746931234,
+                "y": 61.77232217925005
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Comm Center.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Contest Hall 1.tmx": {
+            "scale": 9.047265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.05250205086136,
+                "y": 64.05250205086138
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Contest Hall 2.tmx": {
+            "scale": 9.047265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.05250205086136,
+                "y": 64.05250205086138
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Contest Hall Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Contest Hall.tmx": {
+            "scale": 9.047265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.05250205086136,
+                "y": 64.05250205086138
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Contest Hall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Gym 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Gym 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Gym 4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Gym.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Decorations/Template.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 354.83333333333326,
+                "y": 119.33333333333331
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Doors/Template.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 351.33333333333337,
+                "y": 118.16666666666664
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Foliage/Template.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 497.3333333333333,
+                "y": 69
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Bill's House.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Celadon Department Store.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Center 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Center 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Center 4 Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Center 4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Center 5.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Center.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Cinnibar Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 11
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Comm Center.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 11
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Contest Hall Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Contest Hall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 11
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Devon Corp.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Ecruteak Dance Theater Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Ecruteak Dance Theater Palette 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Ecruteak Dance Theater.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Gym 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Gym 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Gym 4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Gym.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 11
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Harbor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Hoenn Cycling Road Gate.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Hoenn Harbor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Hoenn Pokemon League.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Hoenn Pokémon Fanclub.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Hoenn Trainer Hill.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Irida Library 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Irida Library.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Johto Temple Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Johto Temple Palette 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Johto Temple.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Bike Shop.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Daycare.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Game Corner.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Pokémon Fanclub.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Pokémon League Gate.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Pokémon League.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Power Plant.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Safari Zone Building.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Kanto Safari Zone Gate.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Large House.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Lighthouse.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Lilycove Museum.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Mart 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Mart 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Mart.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Mauville Mall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Mossdeep Space Center.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Pewter Museum of Science.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Pokémon Mansion.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Pokémon Tower.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Pretty Petal Flower Shop.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 16
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Professor Birch's Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Professor Elm's Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Professor Oak's Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Restaurant.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Rocket Warehouse.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/School.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Sea Gallup Station.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Sevii Trainer Tower.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 11
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Shed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Silph Co.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Slateport Museum.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Slateport Ship Yard.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Stern's House.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Surf Shop.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Tanobi Ruins Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Tanobi Ruins.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Trickster's House.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Two Island Game Corner.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Unown Ruins Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Unown Ruins.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Watch Tower.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Battle Tent 16x16.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Battle Tent.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Bill's House Palette 2 16x16.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Celadon Department Store.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Ecruteak Dance Theater Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Ecruteak Dance Theater Palette 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Ecruteak Dance Theater.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Hoenn Pokemon League.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Johto Temple Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Johto Temple Palette 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Johto Temple.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Kanto Pokémon League Gate.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Kanto Safari Zone Building.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Kanto Safari Zone Gate.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Lighthouse.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Mauville Mall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Mossdeep Space Center.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Pewter Museum of Science.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Pokémon Tower.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Professor Elm's Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/School.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Sea Gallup Station.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Sevii Trainer Tower.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Silph Co.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Slateport Museum.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Slateport Ship Yard.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Template.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 75.5,
+                "y": 64.16666666666666
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Unown Ruins Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Unown Ruins.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/Watch Tower.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Hoenn Cycling Road Gate.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Hoenn Pokémon Fanclub.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Hoenn Trainer Hill.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Irida Library 2.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 182.16666666666666,
+                "y": -15.833333333333314
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Irida Library 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Irida Library.tmx": {
+            "scale": 9.047265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.05250205086136,
+                "y": 64.05250205086138
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Irida Library.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Kanto Bike Shop.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Kanto Daycare.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Kanto Pokémon Fanclub.tmx": {
+            "scale": 9.047265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.05250205086136,
+                "y": 44.15698804024006
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Kanto Pokémon Fanclub.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Kanto Power Plant.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Large House.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Mart 1.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 60.480914746931234,
+                "y": 61.77232217925005
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Mart 2.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 60.480914746931234,
+                "y": 61.77232217925005
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Mart 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Mart 3.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 193.33333333333331,
+                "y": -8.333333333333314
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Mart 3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Mart.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Pokémon Mansion.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Pretty Petal Flower Shop.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Professor Birch's Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Professor Oak's Lab.tmx": {
+            "scale": 9.047265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.05250205086136,
+                "y": 64.05250205086138
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Professor Oak's Lab.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Restaurant.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Rocket Warehouse.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 182.16666666666666,
+                "y": 44.166666666666686
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Rocket Warehouse.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Shed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Stern's House 1.tmx": {
+            "scale": 9.292187499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 60.15806288885152,
+                "y": 42.40121069446781
+            }
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Stern's House.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Surf Shop.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Tanobi Ruins Palette 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Tanobi Ruins.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Trickster's House.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Individual Sprite Sheets/Outdoor Tiles/Two Island Game Corner.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Maps/Hoenn/Dewford Town.tmx": {
+            "expandedGroupLayers": [
+                11
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1037.3333333333333,
+                "y": 162.66666666666674
+            }
+        },
+        "Maps/Hoenn/Hoenn.tmx": {
+            "expandedGroupLayers": [
+                13,
+                11
+            ],
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 672,
+                "y": -370
+            }
+        },
+        "Maps/Hoenn/Littleroot Town.tmx": {
+            "scale": 3.716875,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 159.4081049268539,
+                "y": 159.54262653438707
+            }
+        },
+        "Maps/Hoenn/Mauville City.tmx": {
+            "scale": 1,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": -57,
+                "y": -95
+            }
+        },
+        "Maps/Hoenn/Oldale Town.tmx": {
+            "scale": 2.648125,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 159.73566202501772,
+                "y": 111.0219494925655
+            }
+        },
+        "Maps/Hoenn/Petalburg City.tmx": {
+            "scale": 1.7001041666666665,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 628.7850009190614,
+                "y": 355.86054776055386
+            }
+        },
+        "Maps/Hoenn/Route 105.tmx": {
+            "expandedGroupLayers": [
+                13,
+                15,
+                11
+            ],
+            "scale": 1,
+            "selectedLayer": 19,
+            "viewCenter": {
+                "x": 320,
+                "y": 453
+            }
+        },
+        "Maps/Hoenn/Route 106.tmx": {
+            "expandedGroupLayers": [
+                11
+            ],
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 796,
+                "y": 158
+            }
+        },
+        "Maps/Hoenn/Route 110.tmx": {
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 319.25,
+                "y": 799.5
+            }
+        },
+        "Maps/Hoenn/Route 116.tmx": {
+            "scale": 1,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 798.5,
+                "y": 159
+            }
+        },
+        "Maps/Hoenn/Rustboro City.tmx": {
+            "expandedGroupLayers": [
+                15,
+                11,
+                13
+            ],
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 68.66666666666666,
+                "y": 107.66666666666667
+            }
+        },
+        "Maps/Irida/Starting Town 2 I guess.tmx": {
+            "expandedGroupLayers": [
+                15,
+                13,
+                11
+            ],
+            "scale": 3,
+            "selectedLayer": 16,
+            "viewCenter": {
+                "x": -178.33333333333331,
+                "y": 70
+            }
+        },
+        "Maps/Irida/Starting Town 3 I guess.tmx": {
+            "expandedGroupLayers": [
+                15,
+                13,
+                11
+            ],
+            "scale": 4,
+            "selectedLayer": 16,
+            "viewCenter": {
+                "x": 10,
+                "y": 112.75
+            }
+        },
+        "Maps/Irida/Starting Town 4 I guess.tmx": {
+            "expandedGroupLayers": [
+                15,
+                11,
+                13
+            ],
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160.5,
+                "y": 180.5
+            }
+        },
+        "Maps/Irida/Starting Town 5 I guess.tmx": {
+            "expandedGroupLayers": [
+                13,
+                15,
+                11
+            ],
+            "scale": 2,
+            "selectedLayer": 17,
+            "viewCenter": {
+                "x": 160.75,
+                "y": 181
+            }
+        },
+        "Maps/Irida/Starting Town 6 I guess.tmx": {
+            "expandedGroupLayers": [
+                15,
+                11,
+                13
+            ],
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 160.5,
+                "y": 160
+            }
+        },
+        "Maps/Irida/Starting Town.tmx": {
+            "expandedGroupLayers": [
+                15,
+                11,
+                13
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 219,
+                "y": 77
+            }
+        },
+        "Maps/Johto/New Bark Town.tmx": {
+            "expandedGroupLayers": [
+                15,
+                11,
+                13
+            ],
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 239.75,
+                "y": 191.5
+            }
+        },
+        "Maps/Map Template.tmx": {
+            "expandedGroupLayers": [
+                11
+            ],
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 165,
+                "y": 129
+            }
+        },
+        "Maps/Random/Tropical Route.tmx": {
+            "expandedGroupLayers": [
+                15,
+                11,
+                13
+            ],
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 221,
+                "y": 175
+            }
+        },
+        "Maps/Sinnoh/Twinleaf Town 2.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -316,
+                "y": -45
+            }
+        },
+        "Maps/Sinnoh/Twinleaf Town.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -341,
+                "y": 76
+            }
+        },
+        "Maps/Tetto/Carnelian Town.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -209,
+                "y": 155
+            }
+        },
+        "Maps/Tetto/Jade Springs.tmx": {
+            "scale": 2.6211588541666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 156.80087429522365,
+                "y": 123.22793770646533
+            }
+        },
+        "Maps/Tetto/Route 82.tmx": {
+            "scale": 1.35078125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 384.22209369577786,
+                "y": 256.5182186234818
+            }
+        },
+        "Maps/Tetto/Route 83.tmx": {
+            "scale": 1.0130859374999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.2961249277039,
+                "y": 256.14806246385194
+            }
+        },
+        "Maps/Tetto/Tetto.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -339,
+                "y": 1038
+            }
+        },
+        "RPG Maker XP Tilesets/RPG Maker XP Sample Tileset 2.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 36,
+                "y": 23.5
+            }
+        },
+        "RPG Maker XP Tilesets/RPG Maker XP Sample Tileset.tmx": {
+            "scale": 0.611328125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -909.4952076677316,
+                "y": 17170.811501597444
+            }
+        },
+        "RPG Maker XP Tilesets/RPG Maker XP Sample Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "RPG Maker XP Tilesets/RPG Maker XP Tileset Template.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -38,
+                "y": 14.25
+            }
+        },
+        "Temporary Tilesets/32286_city.png-par-Mortenkein et customise par Vegetacraft 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/Buildings.tmx": {
+            "scale": 16,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.90625,
+                "y": 17.3125
+            }
+        },
+        "Temporary Tilesets/Complete_Hoenn.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/Ground for Recolor.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -199.33333333333331,
+                "y": 56.66666666666667
+            }
+        },
+        "Temporary Tilesets/JR Master.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 177.33333333333326,
+                "y": 132
+            }
+        },
+        "Temporary Tilesets/JR Master.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/JR_Master_Goldenrod_Indoor.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/JR_Master_Goldenrod_Outdoor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/Mauville Center 4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/Mauville Center 7.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/New House.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 8
+        },
+        "Temporary Tilesets/Pokemon_Leaf_green23.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/golden_silver_tileset_by_skillmen_d2siwpu.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Temporary Tilesets/tileset-advance.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Buildings 1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Buildings 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Decorations.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Doors.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Foliage.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Ground.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/NPCs/Berries.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Objects.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Terrain.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Text.tsx": {
+            "scaleInDock": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/Asuran.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/Cuddlesthefatcat.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/Derlo.tmx": {
+            "scale": 2.7312499999999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 292.17391304347825,
+                "y": 99.954233409611
+            }
+        },
+        "Tiled Tilesets/Third Party Tilesets/Derlo.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/Fangking-Omega Kyledove and Remy.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/FloatzelKing.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/Frario.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/JR Master.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/KelvinShadeWing.tmx": {
+            "scale": 1.5856617647058824,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 248.47669835381402,
+                "y": 272.4414560630651
+            }
+        },
+        "Tiled Tilesets/Third Party Tilesets/KelvinShadeWing.tsx": {
+            "scaleInDock": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/Sergio.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Third Party Tilesets/Spherical Ice.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Trees.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Vehicles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiled Tilesets/Water.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Buildings 1 (1).tmx": {
+            "scale": 0.474609375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 316.0493827160494,
+                "y": 549.925925925926
+            }
+        },
+        "Tilesets/Buildings 1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 522,
+                "y": 992
+            }
+        },
+        "Tilesets/Buildings 1.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Buildings 2 (1).tmx": {
+            "scale": 0.474609375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1200.9876543209875,
+                "y": 1008.1975308641976
+            }
+        },
+        "Tilesets/Buildings 2.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1061,
+                "y": 447
+            }
+        },
+        "Tilesets/Buildings 2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Buildings 3.tmx": {
+            "scale": 0.61328125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2490.7006369426754,
+                "y": 381.55414012738856
+            }
+        },
+        "Tilesets/Buildings 3.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Buildings 4.tmx": {
+            "scale": 0.611328125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 944.6645367412141,
+                "y": 1758.4664536741216
+            }
+        },
+        "Tilesets/Buildings 4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Buildings 6.tmx": {
+            "scale": 0.7778124999999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1585.21494576135,
+                "y": 74.56809963840908
+            }
+        },
+        "Tilesets/Buildings 6.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Buildings ALL.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -4979.5,
+                "y": -1
+            }
+        },
+        "Tilesets/Buildings ALL.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 2
+        },
+        "Tilesets/Buildings.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 2430.5,
+                "y": 2430
+            }
+        },
+        "Tilesets/Decorations.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Devon Corp.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Doors.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Foliage.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1201.5151515151517,
+                "y": 1196.9696969696968
+            }
+        },
+        "Tilesets/Foliage.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Ground.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 3
+        },
+        "Tilesets/Hoenn Harbor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Lilycove Museum.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/BATTLE FRONTIER BATTLE PYRAMID SUMMIT.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/BATTLE FRONTIER EAST.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/BATTLE FRONTIER WEST.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/DEWFORD TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/EVER GRANDE CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/FALLARBOR TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/FORTREE CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/JAGGED PASS.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/LAVARIDGE TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/LILYCOVE CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/LITTLEROOT TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/MAUVILLE CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/MOSSDEEP CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/NAVEL ROCK.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/OLDALE TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/PACIFIDLOG TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/PETALBURG CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 101.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 104.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 109.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 110.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 111.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 113.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 114.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 117.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 118.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 119.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 121.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/ROUTE 122.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/RUSTBORO CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/SAFARI ZONE 4.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/SAFARI ZONE 6.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/SKY PILLAR SEALED.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/SLATEPORT CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/SOOTOPOLIS CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/SOUTHERN ISLAND.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/UNDERWATER SEAFLOOR CAVERN ENTRANCE WITH SUBMARINE.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Emerald Exterior Maps/VERDANTURF TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/FRLG Maps/Agatha_Room_FRLG.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/FRLG Maps/Bruno_Room_FRLG.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/FRLG Maps/Celadon_Gym_FRLG.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/FRLG Maps/Champion_Room_FRLG.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/FRLG Maps/Lance_Room_FRLG.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/FRLG Maps/Lorelei_Room_FRLG.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/FireRed and LeafGreen Interior.tmx": {
+            "scale": 0.9101074218749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 508.73115510488753,
+                "y": 660.3616073823703
+            }
+        },
+        "Tilesets/Nintendo Official Unedited/RSE Maps/Hoenn_Route_101_E.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/RSE Maps/Littleroot_Town_E.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/RSE Maps/Littleroot_Town_RS.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/RSE Maps/Oldale_Town_E.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/RSE Maps/Oldale_Town_RS.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby Sapphire Emerald Exterior.tmx": {
+            "scale": 0.9101074218749999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1017.4623102097751,
+                "y": 535.1016685444498
+            }
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby Sapphire Emerald.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 478.66666666666663,
+                "y": 1059.3333333333333
+            }
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/BATTLE TOWER.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/DEWFORD  TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/EVER GRANDE  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/FALLARBOR  TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/FORTREE  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/JAGGED PASS.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/LAVARIDGE  TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/LILYCOVE  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/LITTLEROOT  TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/MAUVILLE  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/MOSSDEEP  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/MT. CHIMNEY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/MT. PYRE SUMMIT.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/OLDALE  TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/PACIFIDLOG  TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/PETALBURG  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 104.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 108.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 109.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 110.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 111.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 112.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 113.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 114 CAVE.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 114.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 115.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 117.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 118.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 119.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 121.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 122.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 124.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 126.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 130 MIRAGE ISLAND.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/ROUTE 132.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/RUSTBORO  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/SAFARI ZONE 4.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/SEAFLOOR CAVERN MOVING WATER.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/SKY PILLAR.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/SLATEPORT  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/SOOTOPOLIS  CITY.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/SOUTHERN ISLAND STONE.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/SOUTHERN ISLAND.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/UNDERWATER ROUTE 126.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/UNDERWATER ROUTE 128.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Nintendo Official Unedited/Ruby and Sapphire Exterior Maps/VERDANTURF  TOWN.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/Objects.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Project Heliodor 8x8 Tile Palette.tmx": {
+            "scale": 8,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 50.125,
+                "y": 33.5
+            }
+        },
+        "Tilesets/Project Heliodor Metatiles.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 154,
+                "y": 782
+            }
+        },
+        "Tilesets/Project Heliodor Tile Palette.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 87.33333333333334,
+                "y": 169
+            }
+        },
+        "Tilesets/RMXP Tileset Anchor Pieces.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "Tilesets/Terrain.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3,
+            "scaleInEditor": 4
+        },
+        "Tilesets/Terrain_8x8..tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1003,
+                "y": 855
+            }
+        },
+        "Tilesets/Terrain_8x8.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 946,
+                "y": 693
+            }
+        },
+        "Tilesets/Terrain_8x8.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 4
+        },
+        "Tilesets/Terrain_Small.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -167.33333333333331,
+                "y": 815.6666666666666
+            }
+        },
+        "Tilesets/Text.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/18730.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 8
+        },
+        "Tilesets/Third Party Tilesets/Artists Unknown - Reference Only.tmx": {
+            "scale": 0.61328125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 223.38853503184714,
+                "y": -19.566878980891715
+            }
+        },
+        "Tilesets/Third Party Tilesets/Artists Unknown - Reference Only.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/Asuran.tmx": {
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 357,
+                "y": 692
+            }
+        },
+        "Tilesets/Third Party Tilesets/Asuran.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/Cuddlesthefatcat (1).tmx": {
+            "scale": 0.653125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 32.153110047846894,
+                "y": 519.0430622009569
+            }
+        },
+        "Tilesets/Third Party Tilesets/Cuddlesthefatcat.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 762,
+                "y": 1192.3333333333333
+            }
+        },
+        "Tilesets/Third Party Tilesets/Cuddlesthefatcat.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.125,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/Derlo.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 143.72727272727275,
+                "y": 75.27272727272728
+            }
+        },
+        "Tilesets/Third Party Tilesets/Derlo.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "Tilesets/Third Party Tilesets/Fangking-Omega Kyledove and Remy 2.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -254.5,
+                "y": 604
+            }
+        },
+        "Tilesets/Third Party Tilesets/Fangking-Omega Kyledove and Remy.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 539,
+                "y": 559
+            }
+        },
+        "Tilesets/Third Party Tilesets/Fangking-Omega Kyledove and Remy.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/FloatzelKing.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "Tilesets/Third Party Tilesets/Frario.tmx": {
+            "scale": 3.107291666666667,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -128.4076433121019,
+                "y": 4.827355011733147
+            }
+        },
+        "Tilesets/Third Party Tilesets/Frario.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/JR Master.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 388,
+                "y": 312
+            }
+        },
+        "Tilesets/Third Party Tilesets/JR Master.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/KelvinShadeWing.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": -24,
+                "y": -91
+            }
+        },
+        "Tilesets/Third Party Tilesets/KelvinShadeWing.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/Magiscarf.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 42.25,
+                "y": 135.25
+            }
+        },
+        "Tilesets/Third Party Tilesets/Magiscarf.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/Sergio.tmx": {
+            "scale": 1.864375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -323.43278578612137,
+                "y": -38.61884009386523
+            }
+        },
+        "Tilesets/Third Party Tilesets/Sergio.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/Spherical Ice.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 42.5,
+                "y": 50.25
+            }
+        },
+        "Tilesets/Third Party Tilesets/Spherical Ice.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Third Party Tilesets/Unadapted/Cuddlesthefatcat.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "Tilesets/Trees.tmx": {
+            "scale": 0.6637276785714286,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 150.6642004371953,
+                "y": 623.7497898099882
+            }
+        },
+        "Tilesets/Trees.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 4
+        },
+        "Tilesets/Vehicles.tmx": {
+            "scale": 0.61328125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 226.64968152866243,
+                "y": -613.0955414012739
+            }
+        },
+        "Tilesets/Vehicles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/Water Small.tmx": {
+            "scale": 1.1615234374999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -578.5505296788297,
+                "y": -346.95813014965535
+            }
+        },
+        "Tilesets/Water.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -27.333333333333314,
+                "y": -164.66666666666663
+            }
+        },
+        "Tilesets/Water.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Z:/WillsStuff/home/Projects/Heliodor/Tilesets/Third Party Tilesets/Cuddlesthefatcat.tmx": {
+            "scale": 0.8849702380952381,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 959.3542962838407,
+                "y": 671.2090129477047
+            }
+        },
+        "Z:/WillsStuff/home/Projects/Heliodor/Tilesets/Third Party Tilesets/Cuddlesthefatcat.tsx": {
+            "scaleInDock": 1
+        },
+        "Z:/willsstuff/home/Projects/Heliodor/Temporary Tilesets/JR_Master_Goldenrod_Outdoor.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/thewi/Pictures/Heliodor/Individual Sprite Sheets/Outdoor Tiles",
+    "last.externalTilesetPath": "Z:/Projects/Heliodor/Temporary Tilesets",
+    "last.imagePath": "E:/Heliodor/Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings",
+    "last.worldFilePath": "F:/Projects/Heliodor/Maps/Hoenn",
+    "loadedWorlds": [
+        "F:/Projects/Heliodor/Maps/Hoenn/Hoenn.world"
+    ],
+    "map.fixedSize": false,
+    "map.height": 24,
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 30,
+    "openFiles": [
+        "Tiled Tilesets/Trees.tsx",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Foliage/Template.tmx",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Celadon Department Store.tsx",
+        "Tiled Tilesets/Third Party Tilesets/Cuddlesthefatcat.tsx",
+        "Tiled Tilesets/Third Party Tilesets/Derlo.tmx",
+        "Tiled Tilesets/Third Party Tilesets/Derlo.tsx",
+        "Tiled Tilesets/Third Party Tilesets/Fangking-Omega Kyledove and Remy.tsx",
+        "Tiled Tilesets/Third Party Tilesets/FloatzelKing.tsx",
+        "Tiled Tilesets/Third Party Tilesets/Sergio.tsx"
+    ],
+    "project": "Project Heliodor Environments Kit.tiled-project",
+    "recentFiles": [
+        "Tiled Tilesets/Trees.tsx",
+        "Tiled Tilesets/Third Party Tilesets/Sergio.tsx",
+        "Tiled Tilesets/Third Party Tilesets/FloatzelKing.tsx",
+        "Tiled Tilesets/Third Party Tilesets/Fangking-Omega Kyledove and Remy.tsx",
+        "Tiled Tilesets/Third Party Tilesets/Derlo.tsx",
+        "Tiled Tilesets/Third Party Tilesets/Derlo.tmx",
+        "Tiled Tilesets/Third Party Tilesets/Cuddlesthefatcat.tsx",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Celadon Department Store.tsx",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Foliage/Template.tmx",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Gym.tsx",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Gym 4.tsx",
+        "Individual Sprite Sheets/Outdoor Tiles/Heliodor/Important Buildings/16x16/Gym 3.tsx"
+    ],
+    "resizeMap.removeObjects": false,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.transparentColor": "#000000",
+    "tileset.useTransparentColor": true
+}
